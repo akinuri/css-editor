@@ -1,0 +1,341 @@
+/* ==================== GLOBAL ==================== */
+/* ---------- RESET ---------- */
+.website-wrapper,
+.main-page-wrapper {
+    background-color: transparent !important;
+}
+
+.website-wrapper {
+    box-shadow: 0 0 2px rgba(0,0,0,.1) !important;
+}
+
+
+/* ---------- STYLES ---------- */
+body {
+    background-color: hsl(0, 0%, 20%) !important;
+}
+
+.site-content,
+.related-and-upsells {
+    color: rgba(255,255,255,.75) !important;
+}
+
+
+.site-content textarea,
+.site-content input[type=text],
+.site-content input[type=email] {
+    color: black !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit !important;
+}
+
+
+a {
+    color: inherit !important;
+}
+
+table caption {
+    text-align: center;
+    font-weight: bold;
+    color: inherit !important;
+    font-size: 1.1em;
+}
+
+
+
+
+/* ==================== TOPBAR ==================== */
+/* ---------- RESET ---------- */
+.topbar-wrapp {
+    border-bottom: 0;
+}
+.topbar-wrapp a {
+    color: inherit !important;
+}
+
+
+/* ---------- STYLES ---------- */
+.topbar-wrapp {
+    color: rgba(255,255,255,.8);
+    background-color: hsl(0, 0%, 15%) !important;
+}
+
+.topbar-wrapp,
+.topbar-content:before {
+    height: 30px;
+}
+
+.sticky-header-prepared.basel-top-bar-on .header-shop {
+    top: 30px;
+}
+
+
+
+
+/* ==================== HEADER ==================== */
+.main-header {
+    color: rgba(255,255,255,.8) !important;
+    background-color: hsl(0, 0%, 15%) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,.5);
+    z-index: 99;
+}
+.main-header * {
+    color: inherit !important;
+}
+.home .main-header {
+    margin-bottom: 0 !important;
+}
+
+.main-header .container {
+    width: 1170px !important;
+}
+
+.main-header .fa {
+    /* color: white !important; */
+}
+
+.main-header .site-logo img {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    position: absolute;
+    z-index: 99999;
+    top: -4px;
+    height: 180px;
+    max-height: unset;
+}
+
+.main-header .basel-search-dropdown > a::before,
+.main-header .basel-search-dropdown > a::after {
+    background-color: white !important;
+}
+
+.main-header .basel-search-dropdown .basel-search-wrapper {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3) !important;
+}
+
+.mobile-nav-icon .basel-burger,
+.mobile-nav-icon .basel-burger::after,
+.mobile-nav-icon .basel-burger::before {
+    background-color: white !important;
+}
+
+
+.right-column .basel-search-dropdown form .search-field {
+    color: black !important;
+}
+
+
+@media (max-width: 1200px) {
+    .main-header .container {
+        width: 95% !important;
+    }
+    .main-header .site-logo img {
+        height: 150px;
+    }
+}
+@media (max-width: 990px) {
+    .main-header .site-logo img {
+        height: 120px;
+    }
+}
+@media (max-width: 768px) {
+    .main-header .site-logo img {
+        height: 100px;
+    }
+}
+
+
+
+
+/* ==================== MAIN-NAV ==================== */
+.main-header .main-nav .menu li:hover a {
+    background-color: rgba(255,255,255,.05);
+}
+
+
+.main-nav .menu > li.menu-item-has-children {
+    margin-right: 0 !important;
+}
+.main-nav .menu > li.menu-item-has-children > a {
+    padding-right: 20px !important;
+}
+.main-nav .menu > li.menu-item-has-children > a:after {
+    right: 6px !important;
+}
+
+
+
+.main-nav .sub-menu-dropdown {
+    color: rgba(0,0,0,.7) !important;
+    background-color: white !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3) !important;
+}
+.main-header .sub-menu-dropdown a {
+    /* color: rgba(0,0,0,.7) !important; */
+}
+.main-header .sub-menu-dropdown a:hover {
+    /* color: rgba(0,0,0,.9) !important; */
+}
+
+
+
+
+/* ==================== MOBILE-MENU ==================== */
+.basel-close-side {
+    background-color: hsla(0, 0%, 20%, .9) !important;
+}
+
+.mobile-nav {
+    box-shadow: 2px 0 5px rgba(0,0,0,.5);
+    background-color: hsl(0, 0%, 15%) !important;
+    overflow: initial !important;
+}
+
+.mobile-nav .searchform {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.mobile-nav ul li a {
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+    color: rgba(255,255,255,.5) !important;
+}
+
+.mobile-nav ul li.current_page_item > a {
+    color: rgba(255,255,255,.75) !important;
+}
+
+.mobile-nav ul li .up-icon {
+    background-color: rgba(0,0,0,0.2) !important;
+}
+.mobile-nav ul ul {
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+
+
+
+/* ==================== PAGE-TITLE ==================== */
+/* ---------- RESET ---------- */
+.page-title,
+.single-breadcrumbs-wrapper {
+    display: none;
+}
+
+
+/* ---------- STYLES ---------- */
+.page-title-default,
+.single-breadcrumbs-wrapper {
+    background-color: hsl(0, 0%, 75%) !important;
+}
+
+.page-title-default,
+.single-breadcrumbs-wrapper .woocommerce-breadcrumb * {
+    color: white !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+
+.basel-back-btn span,
+.basel-back-btn span::after,
+.product-btn span {
+    background-color: white !important;
+}
+.basel-back-btn span::before,
+.product-btn span::before {
+    color: white !important;
+}
+
+
+.page .page-title .breadcrumbs {
+    text-align: left;
+}
+.page .page-title .entry-header {
+    position: relative;
+}
+.page .page-title .entry-title {
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* ==================== SITE-CONTENT ==================== */
+.site-content {
+    margin-top: 20px;
+}
+
+.single-product-content {
+    color: rgba(255,255,255,.7) !important;
+}
+
+.product-share .fa {
+    color: white;
+}
+
+.product-tabs-wrapper {
+    background-color: transparent !important;
+}
+.product-tabs-wrapper * {
+    color: inherit !important;
+}
+
+.product-tabs-wrapper input[type=submit] {
+    border: 0 !important;
+    color: rgba(255,255,255,.7) !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    background-color: rgba(255,255,255,.1) !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.product-tabs-wrapper input[type=submit]:hover {
+    color: rgba(255,255,255,.8) !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.25) !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+
+
+
+/* ==================== SINGLE-PRODUCT-CONTENT ==================== */
+.wrap-price {
+    display: none !important;
+}
+.woocommerce-ordering {
+    display: none !important;
+}
+.basel-hover-alt .product-title a {
+    border-bottom: 0 !important;
+}
+
+
+
+
+/* ==================== RELATED-AND-UPSELLS ==================== */
+footer {
+    background-color: rgba(0,0,0,.1) !important;
+    border-top: 1px solid rgba(255,255,255,.05);
+    color: rgba(255,255,255,.6) !important;
+}
+footer * {
+    color: inherit !important;
+}
+
+footer .widget-area {
+    padding-top: 20px !important;
+}
+
+
+
+
+/* ==================== CATEGORIES ==================== */
+.site-content .woocommerce .hover-mask {
+    color: black !important;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.1) !important;
+}
