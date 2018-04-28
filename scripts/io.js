@@ -2,8 +2,6 @@ function parseCSS() {
     CSS = {};
     $sectionList.html("");
     
-    
-    
     var cssText = myCodeMirror.getValue();
     
     var headers  = cssText.matches(/\/\*\s=*?\s(.*?)\s=*?\s\*\//g);
